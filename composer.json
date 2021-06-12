@@ -1,0 +1,55 @@
+{
+    "name": "mawuekom/laravel-security-features",
+    "description": "A bunch of security focused features 💪",
+    "keywords": [
+        "mawuekom",
+        "laravel-security-features"
+    ],
+    "homepage": "https://github.com/mawuekom/laravel-security-features",
+    "license": "MIT",
+    "type": "library",
+    "authors": [
+        {
+            "name": "Ephraïm Seddor",
+            "email": "seddorephraim7@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": "^7.4|^8.0",
+        "illuminate/support": "^8.0",
+        "barryvdh/laravel-cors": "^2.0"
+    },
+    "require-dev": {
+        "orchestra/testbench": "^6.0",
+        "phpunit/phpunit": "^9.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Mawuekom\\SecurityFeatures\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Mawuekom\\SecurityFeatures\\Tests\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit",
+        "test-coverage": "vendor/bin/phpunit --coverage-html coverage"
+
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Mawuekom\\SecurityFeatures\\SecurityFeaturesServiceProvider"
+            ],
+            "aliases": {
+                "SecurityFeatures": "Mawuekom\\SecurityFeatures\\SecurityFeaturesFacade"
+            }
+        }
+    }
+}
