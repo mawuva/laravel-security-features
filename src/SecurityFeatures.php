@@ -1,8 +1,8 @@
 <?php
 
-namespace Mawuekom\LaravelSecurityFeatures;
+namespace Mawuekom\SecurityFeatures;
 
-class LaravelSecurityFeatures
+class SecurityFeatures
 {
     // Build your next great package.
 }

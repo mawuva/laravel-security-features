@@ -1,13 +1,13 @@
 <?php
 
-namespace Mawuekom\LaravelSecurityFeatures;
+namespace Mawuekom\SecurityFeatures;
 
 use Illuminate\Support\Facades\Facade;
 
 /**
- * @see \Mawuekom\LaravelSecurityFeatures\Skeleton\SkeletonClass
+ * @see \Mawuekom\SecurityFeatures\Skeleton\SkeletonClass
  */
-class LaravelSecurityFeaturesFacade extends Facade
+class SecurityFeaturesFacade extends Facade
 {
     /**
      * Get the registered name of the component.
@@ -16,6 +16,6 @@ class LaravelSecurityFeaturesFacade extends Facade
      */
     protected static function getFacadeAccessor()
     {
-        return 'laravel-security-features';
+        return 'security-features';
     }
 }
