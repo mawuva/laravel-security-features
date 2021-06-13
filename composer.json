@@ -2,8 +2,8 @@
     "name": "mawuekom/laravel-security-features",
     "description": "A bunch of security focused features 💪",
     "keywords": [
-        "mawuekom",
-        "laravel-security-features"
+        "mawuekom", "laravel", "security",
+        "laravel-security-features", "security-features"
     ],
     "homepage": "https://github.com/mawuekom/laravel-security-features",
     "license": "MIT",
